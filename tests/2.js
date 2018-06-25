@@ -1,0 +1,3 @@
+module.exports = {
+    test: "describe('sumOfOdds',()=>{it('adds odd numbers up to n', ()=>{Test.assertEquals(result(6),ctrl(6));Test.assertEquals(result(10),ctrl(10));Test.assertEquals(result(30),ctrl(30));});it ('adds odd numbers up to and including n',()=>{Test.assertEquals(result(1), ctrl(1));Test.assertEquals(result(9), ctrl(9));Test.assertEquals(result(31), ctrl(31));});it ('returns the square of 9',()=>{Test.assertEquals(result(9), ctrl(9));});it('adds odd numbers together for a randomly generated n',()=>{let randNum = Math.floor(Math.random() * 100); Test.assertEquals(result(randNum), ctrl(randNum));});});"   
+}

@@ -1,3 +1,3 @@
 module.exports = {
-    test: "describe('hello world',()=>{it('returns the square of 0', ()=>{Test.assertSimilar(result(0),ctrl(0));});it ('returns the square of 2',()=>{Test.assertEquals(result(2), ctrl(2));});it ('returns the square of 9',()=>{Test.assertEquals(result(9), ctrl(9));});it('returns the square of random number',()=>{let randNum = Math.round(Math.random() * 100); Test.assertEquals(result(randNum), ctrl(randNum));});});"   
+    test: "describe('squareNumber',()=>{it('returns the square of 0', ()=>{Test.assertEquals(result(0),ctrl(0));});it ('returns the square of 2',()=>{Test.assertEquals(result(2), ctrl(2));});it ('returns the square of 9',()=>{Test.assertEquals(result(9), ctrl(9));});it('returns the square of random number',()=>{let randNum = Math.round(Math.random() * 100); Test.assertEquals(result(randNum), ctrl(randNum));});});"   
 }
