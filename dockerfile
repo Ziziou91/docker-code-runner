@@ -1,5 +1,7 @@
-#Download base image node
-FROM node:carbon
+FROM node:alpine
+
+RUN apk add --update bash
+RUN apk add --update docker
 
 #Set work directory to /usr/app
 WORKDIR /usr/src/app

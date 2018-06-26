@@ -1,6 +1,11 @@
 const router = require('express').Router();
 const runTest = require('../runtest');
 
+router.use(function timeLog (req, res, next) {
+    console.log('Time: ', Date.now());
+    next();
+})
+
 router.post('/:question_id', (req, res) => {
     const question = req.params.question_id;
     let test = require(`../tests/${question}.js`).test;
